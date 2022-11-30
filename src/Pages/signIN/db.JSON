@@ -1,0 +1,10 @@
+{
+    "users": [
+      { "id": 1, "email": "cleberso@gmail.com", "password": "12345" },
+      { "id": 2, "email": "cleberso1@gmail.com", "password": "12345" },
+      { "id": 3, "email": "cleberso2@gmail.com", "password": "12345" },
+      { "id": 4, "email": "cleberso3@gmail.com", "password": "12345" },
+      { "id": 5, "email": "cleberso4@gmail.com", "password": "12345" }
+    ]
+
+}

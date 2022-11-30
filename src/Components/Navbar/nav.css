@@ -1,0 +1,24 @@
+.Logo{
+    height: 60px;
+    width: 90px;
+    color: rgba(214, 212, 212, 0.637);
+}
+
+.navBar{
+    color: black;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 calc((5vw - 100px) / 2);
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    width: 100%;
+}
+
+
+.navBar-tp{
+    background-color: transparent;
+    box-shadow: none;
+}
