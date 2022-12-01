@@ -1,4 +1,5 @@
 import api from '../api/api'
+import axios from 'axios';
 
 const register = (username, lastname, cpf, pnumber, email, password, password2) => {
     return api.post('api/user/create-account',{
@@ -13,7 +14,7 @@ const register = (username, lastname, cpf, pnumber, email, password, password2) 
 };
 
 const login = async(email, password) => {
-    return api.post('api/auth/login', {
+    return axios.post('https://diogo1.herokuapp.com/api/auth/login', {
         email,
         password,
     }).then((response) => {
