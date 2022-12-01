@@ -36,12 +36,13 @@ export const BtnLinkDiv = styled.div`
     justify-content: center;
     flex-direction: row;
     width: 100%;
-    margin-top: 5%;
+    margin-bottom: -5%;
+
 `
 export const BtnLink = styled(Link)`
   width: 25%;
     margin: 2rem;
-    padding: 1rem;
+    padding: 0.5rem;
     font-weight: bold;
     color: #fff;
     background-color: #15cdfc;

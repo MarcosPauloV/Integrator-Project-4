@@ -26,7 +26,7 @@ const Events = () => {
 
   useEffect(() => {
     async function loadApi(){
-      const response = await api.get("api/event");
+      const response = await api.get("/api/event");
       console.log(response.data);
       setTicket(response.data.result);
       setLoading(false);
@@ -48,7 +48,7 @@ const Events = () => {
               <TickContent>
             {ticket.map((item) => {
               return(
-                <TicketDiv to={`/EventDetails/${item._id}`} key={item._id}>
+                <TicketDiv to={`/EventDetails/${item.id}`} key={item.id}>
                   <TicketInfo>
                     <TicketImage src="https://images.unsplash.com/photo-1511016469271-ba8f47d3a2e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"></TicketImage>
                     <TicketTitle>{item.evName}</TicketTitle>

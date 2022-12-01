@@ -19,7 +19,11 @@ export const Container = styled.div`
 export const ContTitle = styled.h1`
   position: absolute;
   align-self: flex-start;
+  text-align: center;
   font-weight: bold;
+  @media screen {
+    font-size : 16px ;
+  }
 `
 
 export const ImgDiv = styled(Link)`
@@ -30,7 +34,7 @@ export const ImgDiv = styled(Link)`
   justify-content: center;
   @media screen and (max-width: 768px) {
     height: 20vh;
-    width: 35vh;
+    width: 25vh;
     margin: 5px;
   }
   &:hover{
@@ -44,6 +48,7 @@ export const ImgTitle = styled.h2`
   position: absolute;
   align-self: center;
   font-weight: bold;
+  text-align: center;
   color: #fff;
   letter-spacing: 2px;
 `
