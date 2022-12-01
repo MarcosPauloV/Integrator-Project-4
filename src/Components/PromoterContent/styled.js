@@ -117,7 +117,7 @@ export const Content = styled.p`
     text-align: center;
     width: 70%;
     @media screen and (max-width: 768px) {
-        font-size: 18px;
+        font-size: 14px;
     }
 `
 
